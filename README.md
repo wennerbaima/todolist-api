@@ -1,17 +1,17 @@
-# Back-end do Todolist
+# Back-end TodoList
 ## Tecnologias e Ferramentas
 - IntelliJ
 - JAVA 1.8
 - Spring Boot
-- Spring JPA
-- Oracle
+- Spring Data JPA
+- Oracle DB
 - Maven
 - Docker
 
 ## Primeiros Passos no Projeto
-- 1) Faça um Clone do Projeto
-- 2) Importe o Projeto na IDE como Maven Project
-- 3) Faça um Maven Install (ou baixe as dependências) pela IDE
-- 4) Caso não tenha o Oracle DB instalado, execute o comando "docker-compose up" para subir um contêiner docker com uma instância do banco
-- 5) Execute o projeto pela classe TasklistApiApplication.java (a base de dados será criada automaticamente)
+- 1) Faça um clone do projeto
+- 2) Importe o projeto na IDE como Maven Project
+- 3) Caso não tenha o Oracle DB instalado, execute o comando "docker-compose up"
+- 4) Execute o comando "mvn install" (ou baixe as dependências)
+- 5) Execute o projeto pela classe TodolistApiApplication.java (o esquema do banco será atualizado automaticamente)
 - 6) Pronto! Agora você tem uma API Restful local na porta 8080
